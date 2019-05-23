@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="mag_textSize">16sp</dimen>
+    <dimen name="magCirlcle_width">36dp</dimen>
+    <dimen name="magCircle_Height">36dp</dimen>
+    <dimen name="offsetLoc_size">12sp</dimen>
+</resources>

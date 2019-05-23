@@ -15,4 +15,11 @@
 -->
 <resources>
     <string name="app_name">Quake Report</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="magnitude">Magnitude</string>
+
+    <string name="near_the">Near the</string>
+    <string name="magDemo_text">8.9</string>
+    <string name="location_offset">30km S of</string>
 </resources>
