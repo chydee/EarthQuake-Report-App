@@ -22,4 +22,5 @@
     <string name="near_the">Near the</string>
     <string name="magDemo_text">8.9</string>
     <string name="location_offset">30km S of</string>
+    <string name="no_earthquakes_found">No Earthquakes found!</string>
 </resources>

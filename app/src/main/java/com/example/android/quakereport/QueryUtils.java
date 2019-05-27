@@ -20,7 +20,7 @@ import java.util.List;
 
 public final class QueryUtils {
 
-    public static final String LOG_TAG = QueryUtils.class.getSimpleName();
+    public static final String LOG_TAG = QueryUtils.class.getName();
 
     /**
      * Create a private constructor because no one should ever create a {@link QueryUtils} object.
@@ -51,6 +51,8 @@ public final class QueryUtils {
     //Make an HTTP request to the given URL and return a String as the response
 
     private static String makeHttpRequest(URL url) throws IOException {
+
+        Log.i(LOG_TAG, "Connecting to the internet...");
         String jsonResponse = "";
 
         //If the URL is null, then return early.
@@ -170,6 +172,7 @@ public final class QueryUtils {
         * Query the USGS dataset and return a list of {@link EarthQuake} objects.
         */
       public static List<EarthQuake> fetchEarthquakeData(String requestUrl){
+          Log.i(LOG_TAG, "Fetching Data from the internet...");
           // Create URL object
           URL url = createUrl(requestUrl);
 
