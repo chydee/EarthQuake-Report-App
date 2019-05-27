@@ -1,22 +1,18 @@
 package com.example.android.quakereport;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
+import android.graphics.drawable.GradientDrawable;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.graphics.drawable.GradientDrawable;
+
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 public class EarthQuakeAdapter extends ArrayAdapter<EarthQuake> {
 
@@ -121,12 +117,12 @@ public class EarthQuakeAdapter extends ArrayAdapter<EarthQuake> {
 
 
     private String formatTime(Date dateObject) {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("MMM DD, yyyy", Locale.ENGLISH);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MMM dd, yyyy");
         return dateFormat.format(dateObject);
     }
 
     private String formatDate(Date dateObject) {
-        SimpleDateFormat timeFormat = new SimpleDateFormat("h:mm a", Locale.ENGLISH);
+        SimpleDateFormat timeFormat = new SimpleDateFormat("h:mm a");
         return timeFormat.format(dateObject);
     }
 

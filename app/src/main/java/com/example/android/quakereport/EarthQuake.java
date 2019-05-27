@@ -1,15 +1,12 @@
 package com.example.android.quakereport;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class EarthQuake {
     //Magnitude of the quake
     private double mMagnitude;
     //Location of its occurence
     private String mLocation;
     //Date of the event
-    private  Long mTimeInMilliseconds;
+    private  long mTimeInMilliseconds;
 
     private String mUrl;
 
@@ -18,7 +15,7 @@ public class EarthQuake {
      * @param magnitude is the Magnitude of the EarthQuake.
      * @param location is the location of its occurence
      * @param timeInMilliseconds is the time at which the EarthQuake happened.    */
-    public EarthQuake(double magnitude, String location, Long timeInMilliseconds, String url){
+    public EarthQuake(double magnitude, String location, long timeInMilliseconds, String url){
         this.mMagnitude = magnitude;
         this.mLocation = location;
         this.mTimeInMilliseconds = timeInMilliseconds;
