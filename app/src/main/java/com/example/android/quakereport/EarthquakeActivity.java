@@ -82,6 +82,7 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
 
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -101,6 +102,8 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
         earthquakeListView.setAdapter(mAdapter);
+
+
 
         mEmptyStateTextView = findViewById(R.id.empty_View);
         earthquakeListView.setEmptyView(mEmptyStateTextView);
@@ -131,11 +134,6 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
 
 
         }
-
-
-
-
-
 
 
 

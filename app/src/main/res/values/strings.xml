@@ -18,6 +18,9 @@
     <!--Setting Activity Title [char LIMIT=NONE]-->
     <string name="settings_title">Earthquake Settings</string>
 
+    <!--Refresh Menu Item [Char LIMIT=NONE]-->
+    <string name="menu_refresh">Refresh</string>
+
     <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
     <string name="settings_min_magnitude_label">Minimum Magnitude</string>
     <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>

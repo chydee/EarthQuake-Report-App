@@ -52,7 +52,7 @@
         android:maxLines="2"
         android:textColor="@color/textColorEarthquakeLocation"
         android:textSize="@dimen/mag_textSize"
-        tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+        tools:text="Nevada Australia" />
     </LinearLayout>
 
     <LinearLayout
