@@ -13,7 +13,7 @@ public class EarthQuake {
 
     /**Create a new array Adapter Object
      * @param magnitude is the Magnitude of the EarthQuake.
-     * @param location is the location of its occurence
+     * @param location is the location of its occurrence
      * @param timeInMilliseconds is the time at which the EarthQuake happened.    */
     public EarthQuake(double magnitude, String location, long timeInMilliseconds, String url){
         this.mMagnitude = magnitude;
